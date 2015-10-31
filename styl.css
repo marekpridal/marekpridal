@@ -42,8 +42,9 @@ label
 }
 .form-horizontal
 {
-    width: 32%;
-    margin-left: 5%;
+    width: 220%;
+    /*margin-right: 40%;*/
+    padding-right: 120%;
 }
 /*progress bar*/
 /*
