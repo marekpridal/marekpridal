@@ -1,11 +1,3 @@
-body
-{
-  width:98%;
-}
-.info
-{
-  /*height=100vh;*/
-}
 label
 {
   display: block;
@@ -19,6 +11,10 @@ label
 {
     margin:0 auto;
     margin-top: 5%;
+}
+.row
+{
+  margin-right: 0;
 }
 .popis
 {
@@ -42,9 +38,7 @@ label
 }
 .form-horizontal
 {
-    width: 220%;
-    /*margin-right: 40%;*/
-    padding-right: 120%;
+    width: 80%;
 }
 /*progress bar*/
 /*
