@@ -60,14 +60,6 @@ include 'copyright.php';
             
         </div>
         </div> <!--ukončení row-->
-        <!--<div class="row">
-         
-         <div class="sipka">
-        <a href="#second"><i class="fa fa-arrow-circle-o-down fa-5x"></i></a>
-          
-        </div>
-        
-        </div>-->
     
         <br>
         
