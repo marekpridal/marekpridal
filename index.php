@@ -1,9 +1,4 @@
 <?php
-/*if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //nastaví cookie při odeslání mailů jako ochrana před spamy
-{
-    setcookie("mail", "mail", time() + (86400 * 3), "/"); // 86400 = 1 den
-}*/
-
 include 'formular.php';
 include 'copyright.php';
 ?>
@@ -11,7 +6,8 @@ include 'copyright.php';
 <html lang="cs">
     <head>
     <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jestli sháníte informace nebo kontakty na Marka Přidala, jste tady správně" />
     <title>Marek Přidal - osobní web</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -22,6 +18,7 @@ include 'copyright.php';
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="jquery-circle-progress/dist/circle-progress.js"></script>
     </head>
+    
 <body>
     <div class="container">
       <img src="Avatar.png" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
