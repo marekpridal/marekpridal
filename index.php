@@ -9,19 +9,17 @@ include 'copyright.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Jestli sháníte informace nebo kontakty na Marka Přidala, jste tady správně" />
     <title>Marek Přidal - osobní web</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="styl.css" type="text/css">
     <link href="favicon.ico" rel="icon" type="image/png" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="jquery-circle-progress/dist/circle-progress.js"></script>
     </head>
     
 <body>
     <div class="container">
-      <img src="Avatar.png" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
+      <img src="avatar.jpeg" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
         <h1 class="jmeno">Marek Přidal</h1>
         <p class="popis">
         Novinář, programátor, fotograf a stále ještě student z Ostravy
