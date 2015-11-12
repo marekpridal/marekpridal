@@ -74,7 +74,7 @@ include 'copyright.php';
         </div>
     </div>
     <div class="form-group">
-        <label for="email" class="col-sm-5 control-label">Email</label>
+        <label for="email" class="col-sm-5 control-label">E-mail</label>
         <div class="col-md-7">
             <input type="email" class="form-control" id="email" name="email" placeholder="jan.novak@seznam.cz" value="<?php echo htmlspecialchars($_POST['email']); ?>">
             <?php echo "<p class='text-danger'>$errEmail</p>";?>
