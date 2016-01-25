@@ -35,7 +35,7 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
         $to = array ('marek@marekpridal.eu','Marek Přidal');
         $result='';
         $username = 'web@marekpridal.eu';
-        $password = 'marecekweb';
+        $password = 'password';
         $smtpsecure = 'tls';
         $port = 587;
         
