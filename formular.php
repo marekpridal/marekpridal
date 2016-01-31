@@ -117,4 +117,8 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
 //echo 'no cookie';
 
     
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 0d0d9a9309e812094702f49c580152e4e9a2e703
