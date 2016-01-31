@@ -115,10 +115,3 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
           $result='<div class="alert alert-info">Vaše zpráva již byla zaslána</div>';
 
 //echo 'no cookie';
-
-    
-<<<<<<< HEAD
-?>
-=======
-?>
->>>>>>> 0d0d9a9309e812094702f49c580152e4e9a2e703

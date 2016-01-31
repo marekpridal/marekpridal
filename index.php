@@ -90,7 +90,7 @@ include 'copyright.php';
     <div class="form-group">
         <label for="human" class="col-sm-5 control-label">2 + 3</label>
         <div class="col-md-7">
-            <input type="text" class="form-control" id="human" name="human" placeholder="Výsledek">
+            <input type="number" class="form-control" id="human" name="human" placeholder="Výsledek">
             <?php echo "<p class='text-danger'>$errHuman</p>";?>
         </div>
     </div>
