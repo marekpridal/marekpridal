@@ -116,10 +116,10 @@ include 'copyright.php';
                 <i class="fa fa-linkedin"></i></a>
             <a href="https://www.flickr.com/photos/95097582@N04" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-flickr"><i class="fa fa-flickr"></i></a>
             <a href="https://foursquare.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-foursquare"><i class="fa fa-foursquare"></i></a>
-            <a href="https://soundcloud.com/marek-pridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-soundcloud"><i class="fa fa-soundcloud"></i></a>
+            <!--<a href="https://soundcloud.com/marek-pridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-soundcloud"><i class="fa fa-soundcloud"></i></a>-->
             <a href="https://player.spotify.com/user/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-spotify"><i class="fa fa-spotify"></i></a>
             <a href="https://instagram.com/marekpridal/" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-instagram"><i class="fa fa-instagram"></i></a>
-
+            <a href="https://github.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-github"><i class="fa fa-github"></i></a>
         </div>
         
         
