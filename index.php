@@ -7,6 +7,7 @@ include 'copyright.php';
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#8B8B8B">
     <meta name="description" content="Jestli sháníte informace nebo kontakty na Marka Přidala, jste tady správně" />
     <title>Marek Přidal - osobní web</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
