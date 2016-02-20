@@ -15,6 +15,7 @@ include 'copyright.php';
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="styl.css" type="text/css">
     <link href="favicon.ico" rel="icon" type="image/png" />
+    <link rel='icon' sizes='192x192' href='favicon.ico'><!--ikona-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     </head>
