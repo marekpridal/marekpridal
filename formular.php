@@ -1,6 +1,6 @@
 <?php
 
-$php_mail = 'PHPMailer-master/PHPMailerAutoload.php';
+$php_mail = 'phpmailer-master/phpmailerautoload.php';
 
 //echo 'formular';
 
@@ -25,19 +25,19 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
     if (isset($_POST["submit"]))
     {
       //echo 'submit';
-      
+        
         $name = $_POST['name'];
         $email = $_POST['email'];
         $subject = 'Zprava z weboveho formulare';
         $message = $_POST['message'];
         $human = intval($_POST['human']);
-        $from = array ('web@marekpridal.eu', 'marekpridal.eu');
+        $from = array ('web@marekpridal.eu', 'Webovy formular');
         $to = array ('marek@marekpridal.eu','Marek Přidal');
         $result='';
-        $username = 'web@marekpridal.eu';
-        $password = 'password';
-        $smtpsecure = 'tls';
-        $port = 587;
+        //$username = 'marek@marekpridal.eu';
+        //$password = 'heslo';
+        $smtpsecure = 'ssl';
+        $port = 25;
         
         
         //hlavička
@@ -65,26 +65,21 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
         if ($human !== 5) {
             $errHuman = 'Výsledek není správný';
         }else $errHuman='';
-        /*
-        echo $result;
-        echo $name ;
-        echo $email ;
-        echo $message ;
-        */
-        
                 
         $mail = new PHPMailer;
 
-        //$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-        $mail->isSMTP();                                      // Set mailer to use SMTP
+        //$mail->SMTPDebug = 3;
+        /*$mail->isSMTP();
+        // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = $username;                 // SMTP username
         $mail->Password = $password;                           // SMTP password
-        $mail->SMTPSecure = $smtpsecure;                            // Enable TLS encryption, `ssl` also accepted
+        $mail->SMTPSecure = $smtpsecure;  // Enable verbose debug output*/
+        $mail->setLanguage('cz','/phpmailer-master/language');
+        $mail->Host = 'aspmx.l.google.com';     
         $mail->Port = $port;                                    // TCP port to connect to
-
+        //echo $username." ".$port;
         $mail->setFrom($from[0], $from[1]);
         $mail->addAddress($to[0],$to[1]);     // Add a recipient
         $mail->addReplyTo($email, $name);
