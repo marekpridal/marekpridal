@@ -8,14 +8,34 @@ include 'copyright.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#8B8B8B">
-    <meta name="description" content="Jestli sháníte informace nebo kontakty na Marka Přidala, jste tady správně" />
+    <meta name="description" content="Jestli sháníte informace nebo kontakty na Marka Přidala, jste tady správně" >
     <title>Marek Přidal - osobní web</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="styl.css" type="text/css">
-    <link href="favicon.ico" rel="icon" type="image/png" />
-    <link rel='icon' sizes='192x192' href='favicon.ico'><!--ikona-->
+    <!--ikona-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/icons/manifest.json">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#17a2c9">
+<link rel="shortcut icon" href="/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<!--konec inkludace ikon-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     </head>
