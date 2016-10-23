@@ -67,6 +67,7 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
         }else $errHuman='';
                 
         $mail = new PHPMailer;
+        $mail->CharSet = 'UTF-8';
 
         //$mail->SMTPDebug = 3;
         /*$mail->isSMTP();
