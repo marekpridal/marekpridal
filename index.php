@@ -45,7 +45,7 @@ include 'copyright.php';
       <img src="avatar.jpeg" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
         <h1 class="jmeno">Marek Přidal</h1>
         <p class="popis">
-        Novinář, programátor, fotograf a stále ještě student z Ostravy
+            Novinář, programátor, fotograf a stále ještě student z Ostravy studující v Praze
         </p>
         
         <div class="row">
@@ -53,28 +53,35 @@ include 'copyright.php';
             
             <h3 class="nadpis">HTML5</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%;">
-                    <span class="graf-text">85%</span>
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                    <span class="graf-text">90%</span>
                 </div>
             </div>
             
             <h3 class="nadpis">CSS 3</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width: 83%">
-                    <span class="graf-text">83%</span>
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
+                    <span class="graf-text">78%</span>
                 </div>
             </div>
             
             <h3 class="nadpis">PHP</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%">
-                    <span class="graf-text">72%</span>
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    <span class="graf-text">80%</span>
+                </div>
+            </div>
+            
+            <h3 class="nadpis">MySQL</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                    <span class="graf-text">75%</span>
                 </div>
             </div>
             
             <h3 class="nadpis">JavaScript</h3>
             <div class="progress posledni">
-                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100" style="width: 43%">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100" style="width: 43%">
                     <span class="graf-text">43%</span>
                 </div>
             </div>
@@ -86,43 +93,43 @@ include 'copyright.php';
         
     <div id="second">
     <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-xs-12 col-sm-6">
 <form class="form-horizontal" method="post" action="index.php">
     <div class="form-group">
-        <label for="name" class="col-sm-5 control-label">Jméno</label>
-        <div class="col-md-7">
+        <label for="name" class="col-sm-5 col-xs-12 control-label">Jméno</label>
+        <div class="col-md-7 col-xs-12 col-sm-6">
             <input type="text" class="form-control" id="name" name="name" placeholder="Jméno a přijmení" value="<?php echo htmlspecialchars($_POST['name']); ?>">
             <?php echo "<p class='text-danger'>$errName</p>";?>
         </div>
     </div>
     <div class="form-group">
-        <label for="email" class="col-sm-5 control-label">E-mail</label>
-        <div class="col-md-7">
+        <label for="email" class="col-sm-5 col-xs-12 control-label">E-mail</label>
+        <div class="col-md-7 col-xs-12 col-sm-6">
             <input type="email" class="form-control" id="email" name="email" placeholder="jan.novak@seznam.cz" value="<?php echo htmlspecialchars($_POST['email']); ?>">
             <?php echo "<p class='text-danger'>$errEmail</p>";?>
         </div>
     </div>
     <div class="form-group">
-        <label for="message" class="col-sm-5 control-label">Zpráva</label>
-        <div class="col-md-7">
-            <textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+        <label for="message" class="col-sm-5 col-xs-12 control-label">Zpráva</label>
+        <div class="col-md-7 col-xs-12 col-sm-6">
+            <textarea class="form-control" rows="4" name="message" placeholder="Váš vzkaz"><?php echo htmlspecialchars($_POST['message']);?></textarea>
             <?php echo "<p class='text-danger'>$errMessage</p>";?>
         </div>
     </div>
     <div class="form-group">
-        <label for="human" class="col-sm-5 control-label">2 + 3</label>
-        <div class="col-md-7">
+        <label for="human" class="col-sm-5 col-xs-12 control-label">2 + 3</label>
+        <div class="col-md-7 col-xs-12 col-sm-6">
             <input type="number" class="form-control" id="human" name="human" placeholder="Výsledek">
             <?php echo "<p class='text-danger'>$errHuman</p>";?>
         </div>
     </div>
     <div class="form-group">
-        <div class="col-md-7 col-sm-offset-5">
+        <div class="col-md-7 col-xs-12 col-sm-6 col-sm-offset-5">
             <input id="submit" name="submit" type="submit" value="Odeslat" class="btn btn-primary">
         </div>
     </div>
     <div class="form-group">
-        <div class="col-md-7 col-sm-offset-5">
+        <div class="col-md-7 col-xs-12 col-sm-6 col-sm-offset-5">
             <?php echo $result; ?>
             
         </div>
@@ -152,9 +159,11 @@ include 'copyright.php';
   </div> <!--ukončení container-->
   
   <footer class="row">
-   <?php
-   copyright();
-   ?>
+        <div class="col-md-12">
+           <?php
+                copyright();
+           ?>
+        </div>
   </footer>
     
 <script type="text/javascript">

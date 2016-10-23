@@ -26,6 +26,7 @@ label
 {
     text-align: center;
     font-size: 42px;
+    padding: 2%;
 }
 .graf-text
 {
@@ -47,4 +48,15 @@ footer a
 footer a:hover
 {
   color: #f60;
+}
+@media only screen and (max-device-width: 756px) 
+{
+    .form-horizontal
+    {
+        width: 100%;
+    }   
+    .control-label
+    {
+        text-align: center;
+    }
 }
