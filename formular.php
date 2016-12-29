@@ -87,8 +87,8 @@ if(!isset($_COOKIE["mail"])&&(isset($_POST["submit"]))) //ověření, jestli je 
         $mail->isHTML(true);                                  // Set email format to HTML
 
         $mail->Subject = $subject;
-        $mail->Body    = "Od: " . $name . $crlf . "E-Mail: " .$email.$crlf. "Zpráva: " .$crlf. $message;
-        $mail->AltBody = "Od: " . $name . $crlf . "E-Mail: " .$email.$crlf. "Zpráva: " .$crlf. $message;
+        $mail->Body    = "Od: " . $name . $crlf . "\nE-Mail: " .$email.$crlf. "\nZpráva: " .$crlf. $message;
+        $mail->AltBody = "Od: " . $name . $crlf . "\nE-Mail: " .$email.$crlf. "\nZpráva: " .$crlf. $message;
         
 // If there are no errors, send the email
     if ($errName == '' && $errEmail == '' && $errMessage == '' && $errHuman == '')
