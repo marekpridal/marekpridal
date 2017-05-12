@@ -39,58 +39,51 @@ include 'copyright.php';
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     </head>
-    
+
 <body>
     <div class="container">
       <img src="avatar.jpeg" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
         <h1 class="jmeno">Marek Přidal</h1>
         <p class="popis">
-            Novinář, programátor, fotograf a stále ještě student z Ostravy studující v Praze
+            Novinář, programátor, fotograf a stále ještě student z Ostravy na pražském ČVUTu
         </p>
-        
+
         <div class="row">
         <div class="col-md-12">
-            
-            <h3 class="nadpis">HTML5</h3>
+
+            <h3 class="nadpis">C++</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
-                    <span class="graf-text">90%</span>
-                </div>
-            </div>
-            
-            <h3 class="nadpis">CSS 3</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
-                    <span class="graf-text">78%</span>
-                </div>
-            </div>
-            
-            <h3 class="nadpis">PHP</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
                     <span class="graf-text">80%</span>
                 </div>
             </div>
-            
-            <h3 class="nadpis">MySQL</h3>
+
+            <h3 class="nadpis">Swift</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                     <span class="graf-text">75%</span>
                 </div>
             </div>
-            
-            <h3 class="nadpis">JavaScript</h3>
-            <div class="progress posledni">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100" style="width: 43%">
-                    <span class="graf-text">43%</span>
+
+            <h3 class="nadpis">MySQL</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                    <span class="graf-text">70%</span>
                 </div>
             </div>
-            
+
+            <h3 class="nadpis">PHP</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <span class="graf-text">60%</span>
+                </div>
+            </div>
+
         </div>
         </div> <!--ukončení row-->
-    
+
         <br>
-        
+
     <div>
     <div class="row">
     <div class="col-md-6">
@@ -136,7 +129,7 @@ include 'copyright.php';
             </div>
         </form>
         </div>  <!--ukončení col-md-6 pro formulář-->
-        
+
         <div class="col-md-6">
             <a href="https://www.facebook.com/marek.pridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-facebook"><i class="fa fa-facebook"></i></a>
             <a href="https://twitter.com/MarekPridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-twitter"><i class="fa fa-twitter"></i></a>
@@ -150,14 +143,14 @@ include 'copyright.php';
             <a href="https://instagram.com/marekpridal/" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-instagram"><i class="fa fa-instagram"></i></a>
             <a href="https://github.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-github"><i class="fa fa-github"></i></a>
         </div>
-        
-        
+
+
     </div> <!--ukočení row-->
     </div> <!--ukončení second-->
-    
-    
+
+
   </div> <!--ukončení container-->
-  
+
   <footer class="row">
         <div class="col-md-12">
            <?php
@@ -165,7 +158,7 @@ include 'copyright.php';
            ?>
         </div>
   </footer>
-  
+
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"Tato stránka ukládá cookies a Evropská unie nařizuje tohle upozornění. Stačí odkliknout a jedeme dál.","dismiss":"Chápu...","learnMore":"Více info z české legislativy","link":"https://www.uoou.cz/vismo/zobraz_dok.asp?id_org=200144&id_ktg=1853&n=cookies-prechod-z-principu-opt-out-na-opt-in&query=cookie","theme":"dark-floating"};
   </script>
