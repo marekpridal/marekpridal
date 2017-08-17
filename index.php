@@ -130,18 +130,13 @@ include 'copyright.php';
         </form>
         </div>  <!--ukončení col-md-6 pro formulář-->
 
-        <div class="col-md-6">
-            <a href="https://www.facebook.com/marek.pridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-facebook"><i class="fa fa-facebook"></i></a>
+        <div class="col-md-offset-1 col-md-4">
+            <a href="https://itunes.apple.com/us/developer/marek-pridal/id1264724474" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-apple"><i class="fa fa-apple"></i></a>
             <a href="https://twitter.com/MarekPridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://plus.google.com/+MarekPridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-google-plus"><i class="fa fa-google-plus"></i></a>
+            <a href="https://github.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-github"><i class="fa fa-github"></i></a>
             <a href="https://www.linkedin.com/profile/view?id=AAEAAAj1cvsBsDYXBwNz8mSs0MCSeXAsLHRLcdw" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-linkedin">
                 <i class="fa fa-linkedin"></i></a>
-            <a href="https://www.flickr.com/photos/95097582@N04" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-flickr"><i class="fa fa-flickr"></i></a>
-            <a href="https://foursquare.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-foursquare"><i class="fa fa-foursquare"></i></a>
-            <!--<a href="https://soundcloud.com/marek-pridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-soundcloud"><i class="fa fa-soundcloud"></i></a>-->
-            <a href="https://player.spotify.com/user/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-spotify"><i class="fa fa-spotify"></i></a>
             <a href="https://instagram.com/marekpridal/" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-instagram"><i class="fa fa-instagram"></i></a>
-            <a href="https://github.com/marekpridal" target="_blank" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-github"><i class="fa fa-github"></i></a>
         </div>
 
 
