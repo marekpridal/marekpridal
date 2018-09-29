@@ -44,46 +44,6 @@ include 'copyright.php';
     <div class="container">
       <img src="avatar.jpeg" class="img-circle img-responsive img-center" width="280" height="280" alt="avatar">
         <h1 class="jmeno">Marek Přidal</h1>
-        <p class="popis">
-            Novinář, programátor, fotograf a stále ještě student z Ostravy na pražském ČVUTu
-        </p>
-
-        <div class="row">
-        <div class="col-md-12">
-
-            <h3 class="nadpis">C++</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
-                    <span class="graf-text">80%</span>
-                </div>
-            </div>
-
-            <h3 class="nadpis">Swift</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                    <span class="graf-text">80%</span>
-                </div>
-            </div>
-
-            <h3 class="nadpis">MySQL</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                    <span class="graf-text">70%</span>
-                </div>
-            </div>
-
-            <h3 class="nadpis">PHP</h3>
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                    <span class="graf-text">60%</span>
-                </div>
-            </div>
-
-        </div>
-        </div> <!--ukončení row-->
-
-        <br>
-
     <div>
     <div class="row">
     <div class="col-md-6">
