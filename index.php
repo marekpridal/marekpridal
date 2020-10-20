@@ -1,6 +1,5 @@
 <?php
 include 'formular.php';
-include 'copyright.php';
 ?>
 <!doctype html>
 <html lang="cs">
@@ -105,14 +104,6 @@ include 'copyright.php';
 
 
   </div> <!--ukončení container-->
-
-  <footer class="row">
-        <div class="col-md-12">
-           <?php
-                copyright();
-           ?>
-        </div>
-  </footer>
 
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"Tato stránka ukládá cookies a Evropská unie nařizuje tohle upozornění. Stačí odkliknout a jedeme dál.","dismiss":"Chápu...","learnMore":"Více info z české legislativy","link":"https://www.uoou.cz/vismo/zobraz_dok.asp?id_org=200144&id_ktg=1853&n=cookies-prechod-z-principu-opt-out-na-opt-in&query=cookie","theme":"dark-floating"};
